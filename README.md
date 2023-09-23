@@ -160,5 +160,6 @@ You can either build PCL from source (for v1.11) or use the older version.
 - Install C++ Compiler: https://sourceforge.net/projects/mingw/ and setting its installed dir into PATH environment variable as well
 - Installed CMAKE
 - Installed PCL (Point Cloud Library): https://github.com/PointCloudLibrary/pcl/releases - download the allInOne installer from here and set the path of the pcl dir in environment variables which in my case is C:\dev\PCL 1.13.1\bin
+  - Installing via cvpkg did introduce a lot of bugs as dependecncies on boost were not met as PCL uses Boost as dependency
 - C:\Program Files\OpenNI2\Tools - when executing the successful build from the Visual Studio folder of C:\Users\Milin Joshi\Desktop\SensorFusion\LearningSensorFusion\SFND_Lidar_Obstacle_Detection\build\Debug it can throw error of OpenNI2.dll was not found, to resolve this add the dir C:\Program Files\OpenNI2\Tools to Envrionment variable Path
 - execute by running the environment.exe in <project>\build\Debug
